@@ -1,0 +1,49 @@
+{
+  "name": "mandrill-redirect",
+  "version": "1.0.0",
+  "description": "Redirect emails declared in Mandrill template data to a single developer's/QA's email. Useful during development and testing. E.g. Given two recipients jack@gmail.com, jill@gmail.com and a redirect email of test@gmail.com the resulting recipients will be test+0@gmail.com and test+1@gmail.com.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": [
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/beaucoo/mandrill-redirect.git"
+  },
+  "keywords": [
+    "mandrill",
+    "test",
+    "redirect",
+    "email",
+    "template",
+    "send"
+  ],
+  "contributors": [
+    {
+      "name": "BeauCoo",
+      "email": "info@beaucoo.com",
+      "url": "http://beaucoo.com/"
+    },
+    {
+      "name": "Rick Cotter",
+      "email": "rick@beaucoo.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/beaucoo/mandrill-redirect/issues"
+  },
+  "author": "Rick Cotter",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "should": "1.x.x",
+    "lodash": "~1.3.1"
+  }
+}

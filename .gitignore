@@ -1,4 +1,8 @@
 lib-cov
+node_modules
+.idea/*
+*/.idea/*
+coverage.html
 *.seed
 *.log
 *.csv
